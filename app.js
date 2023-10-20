@@ -8,7 +8,7 @@ app.get('*', (req, res) => {
     res.redirect('/');
 })
 
-app.get('/myhome'(req,res) => {
+app.get('/myhome',(req,res) => {
     res.status(200).send({message:"Funcionando"});
 })
 
